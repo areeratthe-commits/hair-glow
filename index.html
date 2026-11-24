@@ -32,5 +32,29 @@
     </div>
   </section>
 
-</body>
+</body><section class="order">
+  <h2>PLACE YOUR ORDER</h2>
+
+  <form id="orderForm">
+    <label>Customer Name</label>
+    <input type="text" name="customer" placeholder="Your name" required>
+
+    <label>Phone Number</label>
+    <input type="tel" name="phone" placeholder="Your phone number" required>
+
+    <label>Shipping Address</label>
+    <textarea name="address" placeholder="Your full address" required></textarea>
+
+    <label>Select Product</label>
+    <select name="product" required>
+      <option value="HG001 - Hair Shampoo">Hair Shampoo - 159 Baht</option>
+      <option value="HG002 - Hair Serum">Hair Serum - 199 Baht</option>
+    </select>
+
+    <label>Quantity</label>
+    <input type="number" name="quantity" min="1" value="1" required>
+
+    <button type="submit">ORDER NOW</button>
+  </form>
+</section>
 </html>
